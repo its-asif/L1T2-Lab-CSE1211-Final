@@ -15,9 +15,8 @@ int main()
    printf("Enter the Number of Term : ");
    scanf("%d",&n);
    printf("Fibonacci series : ");
-   for ( c = 1 ; c <= n ; c++ ){
+   for ( i = 1 ; i <= n ; i++ ){
       printf("%d ", Fibonacci(i));
-      i++;
    }
 
    return 0;
